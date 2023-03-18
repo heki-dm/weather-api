@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+html {
+  font-size: 14pt;
+}
+header{
+  font-size: 20pt;
+  background-image: linear-gradient(90deg, #ffb457,#6edaff);
+}
+form{
+  font-size: 14pt;
+}
+#forecast_wrapper {
+  text-align: center;
+}
+
+#week_forecast {
+  display: flex;
+}
+
+.day_wrapper {
+  width: 40%;
+  margin: 10px;
+  padding: inherit;
+  border: 1px solid #cecaca;
+}
+
+.icon {
+  width: 120px;
+}
+
+footer {
+  text-align: center;
+}
